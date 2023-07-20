@@ -1,0 +1,21 @@
+body {
+  font-family: 'Open Sans';
+  display: flex;
+  align-content: space-around;
+  width: 100%;
+}
+
+header {
+  flex: 100%;
+}
+
+main {
+  align-items: center;
+  flex-direction: column;
+  flex: 70%;
+}
+
+footer {
+  align-self: flex-end;
+  flex: 100%;
+}
